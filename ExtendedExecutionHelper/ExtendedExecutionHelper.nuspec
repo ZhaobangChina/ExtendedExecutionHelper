@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Zhaobang.ExtendedExecutionHelper</id>
+    <version>1.0.0</version>
+    <title>Zhaobang.ExtendedExecutionHelper</title>
+    <authors>Zhaoquan Huang</authors>
+    <owners>Zhaobang China</owners>
+    <licenseUrl>https://github.com/ZhaobangChina/ExtendedExecutionHelper/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ZhaobangChina/ExtendedExecutionHelper</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>A helper class used to manage extended execution sessions of UWP. Supports UWP build 10586 and above.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>UWP</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Zhaobang.ExtendedExecutionHelper.winmd" target="lib\uap10.0"/>
+    <file src="bin\Release\Zhaobang.ExtendedExecutionHelper.XML" target="lib\uap10.0"/>
+    <file src="bin\Release\Zhaobang.ExtendedExecutionHelper.pri" target="lib\uap10.0"/>
+    <file src="ExtendedExecutionHelper.targets" target="build\native"/>
+  </files>
+</package>
