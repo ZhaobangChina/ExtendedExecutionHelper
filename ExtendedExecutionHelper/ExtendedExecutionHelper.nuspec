@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Zhaobang.ExtendedExecutionHelper</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Zhaobang.ExtendedExecutionHelper</title>
     <authors>Zhaoquan Huang</authors>
     <owners>Zhaobang China</owners>
@@ -15,9 +15,8 @@
     <tags>UWP</tags>
   </metadata>
   <files>
-    <file src="bin\Release\Zhaobang.ExtendedExecutionHelper.winmd" target="lib\uap10.0"/>
-    <file src="bin\Release\Zhaobang.ExtendedExecutionHelper.XML" target="lib\uap10.0"/>
-    <file src="bin\Release\Zhaobang.ExtendedExecutionHelper.pri" target="lib\uap10.0"/>
+    <file src="bin\Release\Zhaobang.ExtendedExecutionHelper.winmd" target="lib\uap10.0.10586.0"/>
+    <file src="bin\Release\Zhaobang.ExtendedExecutionHelper.XML" target="lib\uap10.0.10586.0"/>
     <file src="ExtendedExecutionHelper.targets" target="build\native"/>
   </files>
 </package>
